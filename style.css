@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* Body and headers */
+body{
+  background-color: #E3E1E1;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #7c7c7c;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h1{
+  font-family:'Montserrat', sans-serif;
+  color: #DB5A42;
+  font-size: 22px;
+}
+
+h2{
+  color: #5A5A66;
+  font-size: 18px;
+}
+
+h3{
+  margin-top: -10px;
+  line-height: 0.6em;
+  color: #233D4D;
+  font-size: 16px;
+}
+
+h4{
+  color: #5A5A66;
+  font-size: 15px;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #BBB8B2;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DB5A42;
+  text-decoration: none;
+}
+
+
+/*Container Styles*/
+.container{
+  width: 600px;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+    font-size:18px;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+
+
+/*Profile Image*/
+#img-profile{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #cccccc;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+/* Style of the concert section */
+.img-concerts{
+  width: 200px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.vertical-align-table{
+  vertical-align: top;
+}
+
+
+/*Button Style*/
+.btn-border{
+  border-radius: 6px;
+  border: 0.5px solid #233D4D;
+  color: #233D4D;
+  padding: 3px;
+  width: auto;
+  font-size:12px;
+}
+
+.btn-border:hover{
+  border: #C61414;
+  color: #C61414;
+}
